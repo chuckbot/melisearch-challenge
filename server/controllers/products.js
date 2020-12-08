@@ -81,7 +81,7 @@ var controller = {
                         lastname: 'Garcia'
                     }
 
-                    const {id, title, price, currency_id, condition, sold_quantity} = jsonResp;
+                    const {id, title, currency_id, condition, sold_quantity} = jsonResp;
                     const free_shipping = jsonResp.shipping.free_shipping;
                     const [amount, decimals] = jsonResp.price.toString().split('.');
                     const picture = jsonResp.pictures[0].url;
