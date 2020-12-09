@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link, useHistory } from 'react-router-dom'
-import '../assets/css/Grid.scss'
-import '../assets/css/Header.scss'
-import logo from '../assets/img/Logo_ML@2x.png.png.png'
+import '../assets/styles/Grid.scss'
+import '../assets/styles/Header.scss'
+import logo from '../assets/img/Logo_ML.png'
 
 function Header() {
     const history = useHistory();
