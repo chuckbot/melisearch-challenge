@@ -2,7 +2,7 @@ import axios from 'axios';
 import Http from './Url';
 
 const searchItem = async query => {
-    let url = Http.url + "api/items?limit=4&q=" + query;
+    let url = Http.url + "api/items?q=" + query;
     const response = await axios.get(url);
     return response.data;
 }

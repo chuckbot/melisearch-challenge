@@ -2,6 +2,8 @@ import './assets/styles/App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Header from './components/Header';
 import Home from './components/Home';
+import Items from './components/Items';
+import ItemProduct from './components/ItemProduct';
 import './assets/styles/Grid.scss';
 
 function App() {
@@ -12,6 +14,14 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+
+          <Route exact path="/items">
+            <Items />
+          </Route>
+
+          <Route exact path="/items/:id">
+            <ItemProduct />
           </Route>
         </Switch>
         
