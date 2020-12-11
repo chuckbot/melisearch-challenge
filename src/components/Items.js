@@ -5,6 +5,8 @@ import Spinner from './Spinner';
 import GetData from './GetData';
 import Item from './Item';
 import '../assets/styles/Items.scss';
+import ErrorImage from '../assets/img/ErrorImage.jpg';
+import NotFoundImage from '../assets/img/NotFoundImage.jpg';
 
 function Items() {
     const [loader, setLoader] = useState(true)
@@ -61,9 +63,11 @@ function Items() {
             if (searchStatus === 200) {
                 title = 'No hay publicaciones que coincidan con tu búsqueda.'
                 smallTitle = 'Utilizá palabras más genéricas o menos palabras.'
+                imageMsg = NotFoundImage;
             } else {
                 title = '¡Ooops!, ha ocurrido un error al procesar tu búsqueda.'
-                smallTitle = 'Por favor inténtalo nuevamente, ¡nunca dejes de buscar!.'
+                smallTitle = 'Inténtalo nuevamente.'
+                imageMsg = ErrorImage;
             }
 
             return (

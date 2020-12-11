@@ -1,14 +1,14 @@
 import React from 'react';
-import logoSearch from '../assets/img/ic_Search.png';
+import HomeImage from '../assets/img/HomeImage.jpg';
 
 function Home() {
     return (
         <div className="home">
             <div className="card-message">
-                <img src={logoSearch} alt="No dejes de buscar"/>
+                <img src={HomeImage} alt="Comienza a buscar"/>
                 <div className="card-textbox">
                     <h3>Bienvenido a Mercado Libre</h3>
-                    <small className="card-smalltitle">Donde puedes comprar y vender miles de productos en toda Latinoamerica.</small>
+                    <small className="card-smalltitle">Descubri la mejor forma de comprar online.</small>
                 </div>
             </div>
         </div>
