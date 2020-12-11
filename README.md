@@ -2,16 +2,18 @@
 ## Instalar Dependencias
 
 - Dependecias FrontEnd
-`npm i` 
+```npm i``` 
 - Dependencias BackEnd
-`
+```
 cd server
+```
+```
 npm i
-`
+```
 ## Inicializar Proyecto
 
 Desde el nivel de la carpeta /server ejecutar la siguiente linea para inicializar todo el proyecto:
-`npm run project`
+```npm run project```
 
 ## Requerimientos del Proyecto
 
