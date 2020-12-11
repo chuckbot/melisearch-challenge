@@ -26,7 +26,7 @@ npm run project
     - Resultados de la búsqueda.
     - Detalle del producto.
     
-- Vistas navegables atraves de los siguientes paths:
+- Vistas navegables a través de los siguientes paths:
     - Caja de Búsqueda: "**/**"
     - Resultados de la búsqueda: "**/items?search=**" 
     - Detalle del producto: "**/items/:id**"
